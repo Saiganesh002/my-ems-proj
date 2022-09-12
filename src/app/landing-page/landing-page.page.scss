@@ -1,0 +1,35 @@
+ion-content{
+    --background: linear-gradient(0deg, rgba(0,0,0,0.7), rgba(0,0,0,0.4));
+    // --ion-background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+ion-card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 150px;
+    background: white;
+
+    ion-button{
+        width: 247px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+
+    ion-card-title{
+        text-transform: none;
+        font-size: 30px;
+        font-weight: bold;
+        color: #03506F;
+    }
+
+    ion-card-subtitle{
+        text-transform: none;
+        font-size: 25px;
+        font-weight: bold;
+        color: #03506F;
+        margin-top: 20px;
+    }
+}
